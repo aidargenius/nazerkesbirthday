@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>С днём рождения!</title>
+    <style>
+        body {
+            margin: 0;
+            height: 100vh;
+            background: linear-gradient(135deg, #ff9acb, #ffd1e8);
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            font-family: "Segoe UI", sans-serif;
+            overflow: hidden;
+        }
+
+        .card {
+            background: rgba(255, 255, 255, 0.9);
+            padding: 30px 40px;
+            border-radius: 20px;
+            max-width: 600px;
+            text-align: center;
+            box-shadow: 0 10px 30px rgba(0,0,0,0.2);
+            z-index: 1;
+        }
+
+        h1 {
+            color: #ff4f9a;
+            margin-bottom: 20px;
+            font-size: 36px;
+        }
+
+        p {
+            color: #444;
+            font-size: 18px;
+            line-height: 1.6;
+        }
+
+        a {
+            display: inline-block;
+            margin-top: 20px;
+            text-decoration: none;
+            background: #ff4f9a;
+            color: white;
+            padding: 10px 20px;
+            border-radius: 25px;
+            font-weight: bold;
+        }
+
+        .heart {
+            position: absolute;
+            font-size: 22px;
+            animation: fly 6s linear infinite;
+            opacity: 0.8;
+        }
+
+        @keyframes fly {
+            0% { transform: translateY(100vh); opacity: 0; }
+            10% { opacity: 1; }
+            100% { transform: translateY(-10vh); opacity: 0; }
+        }
+    </style>
+</head>
+<body>
+
+<div class="card">
+    <h1>С днём рождения!</h1>
+    <p>
+        Поздравляю тебя с днём рождения!<br><br>
+        Начнём с того, что ты, Назерке, — мой самый любимый человек ❤️.
+        Я дорожу абсолютно всеми моментами, проведёнными с тобой вместе,
+        и надеюсь, что наше с тобой общение не ограничится всего лишь двумя
+        (первый день рождения был фейковым, если можно так сказать)
+        совместно проведёнными днями рождения, а будет продолжаться всю жизнь :3<br><br>
+        Желаю тебе всего наилучшего в жизни!
+        Чтобы ты не болела, высыпалась, учителя не звали на олимпиады
+        и чтобы родители не выносили мозги.
+        Самое главное — чтобы ты была счастлива по жизни!
+    </p>
+
+    <a href="but.html">Но…</a>
+</div>
+
+<span class="heart" style="left:10%; animation-delay:0s;">❤️</span>
+<span class="heart" style="left:30%; animation-delay:1s;">💖</span>
+<span class="heart" style="left:50%; animation-delay:2s;">💕</span>
+<span class="heart" style="left:70%; animation-delay:3s;">💗</span>
+<span class="heart" style="left:90%; animation-delay:4s;">💓</span>
+
+</body>
+</html>

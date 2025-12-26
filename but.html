@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Но…</title>
+    <style>
+        body {
+            margin: 0;
+            height: 100vh;
+            background: linear-gradient(135deg, #4facfe, #00f2fe);
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            font-family: "Segoe UI", sans-serif;
+            overflow: hidden;
+            position: relative;
+        }
+
+        .card {
+            background: rgba(255, 255, 255, 0.9);
+            padding: 30px 40px;
+            border-radius: 20px;
+            max-width: 600px;
+            text-align: center;
+            box-shadow: 0 10px 30px rgba(0,0,0,0.2);
+            z-index: 1;
+        }
+
+        h1 {
+            color: #0077b6;
+            margin-bottom: 20px;
+            font-size: 36px;
+        }
+
+        p {
+            color: #333;
+            font-size: 18px;
+            line-height: 1.6;
+        }
+
+        .dolphin {
+            position: absolute;
+            font-size: 30px;
+            animation: swim 8s linear infinite;
+            opacity: 0.8;
+        }
+
+        @keyframes swim {
+            0% { transform: translateX(-10vw); }
+            100% { transform: translateX(110vw); }
+        }
+    </style>
+</head>
+<body>
+
+<div class="card">
+    <h1>Но…</h1>
+    <p>
+        Я считаю, что в нашем общении нет никакого развития.
+        Наоборот, общения как такового практически не существует,
+        поэтому пора решить, будем ли мы продолжать эту историю
+        или же нет.
+    </p>
+</div>
+
+<span class="dolphin" style="top:20%; animation-delay:0s;">🐬</span>
+<span class="dolphin" style="top:50%; animation-delay:2s;">🐬</span>
+<span class="dolphin" style="top:75%; animation-delay:4s;">🐬</span>
+
+</body>
+</html>
